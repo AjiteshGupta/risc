@@ -1,3 +1,9 @@
+//******** Documentation Section ***************
+//8 Bit RISC microprocessor
+// Author : Ajitesh Gupta
+// Date : 14th July 2019
+
+
 `timescale 1ns/100ps
 module risc_8bit(dataout,carry,sign,zero,instr,clk);
 output  reg [7:0]  dataout=0;
